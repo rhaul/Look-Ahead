@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/peter"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="aaremm.com.projectci.activity.LookActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="100sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="LOOK\nAHEAD"
+            android:gravity="center"
+            android:id="@+id/textView" />
+    </LinearLayout>
+<!--
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Walking"
+            android:textColor="@color/white"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+-->
+
+  <!--  <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:text="Do you care about your and other people's LIFE?"
+            android:id="@+id/textView3"
+            android:gravity="center" />
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:textColor="@color/white"
+            android:layout_margin="3dp"
+            android:background="@color/emarldD"
+            android:id="@+id/b_look_iDo" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I won't"
+            android:textColor="@color/white"
+            android:layout_margin="3dp"
+            android:background="@color/alizarin"
+            android:id="@+id/b_look_iDont" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:text="I'm in one of these modes-"
+            android:id="@+id/textView4"
+            android:layout_marginBottom="5dp"
+            android:gravity="center" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:layout_height="0dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Passenger"
+                android:textColor="@color/white"
+                android:layout_margin="3dp"
+                android:background="@color/wet"
+                android:id="@+id/b_look_passenger" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Indoor"
+                android:textColor="@color/white"
+                android:layout_margin="3dp"
+                android:background="@color/blue"
+                android:id="@+id/b_look_indoor" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Using Maps"
+                android:textColor="@color/white"
+                android:layout_margin="3dp"
+                android:background="@color/amethyst"
+                android:id="@+id/b_look_maps" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

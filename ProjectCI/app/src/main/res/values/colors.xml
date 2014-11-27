@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="turqoise">#1abc9c</color>
+    <color name="peter">#3498db</color>
+    <color name="tall">#C0392B</color>
+    <color name="emarldD">#2ecc71</color>
+    <color name="emarldL">#2eff71</color>
+    <color name="amethyst">#9b59b6</color>
+    <color name="wet">#34495e</color>
+    <color name="sun">#f1c40f</color>
+    <color name="concrete">#95a5a6</color>
+    <color name="alizarin">#e74c3c</color>
+    <color name="white">#FFFFFF</color>
+    <color name="cloud">#ecf0f1</color>
+    <color name="red">#FF0000</color>
+    <color name="yello">#FFFF00</color>
+    <color name="blue">#00CCFF</color>
+    <color name="green">#00FF00</color>
+
+</resources>
